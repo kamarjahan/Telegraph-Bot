@@ -7,9 +7,9 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 Webot = Client(
    "Telegraph Uploader",
-   api_id=5280070566:AAHeW6S0FhRJ7Nn81YXz_YeI2B-51spcRPk,
-   api_hash=17875613,
-   bot_token=6798f54a7f74e94f2ef0923fba8a8377,
+   api_id=17875613,
+   api_hash=6798f54a7f74e94f2ef0923fba8a8377,
+   bot_token=5280070566:AAHeW6S0FhRJ7Nn81YXz_YeI2B-51spcRPk,
 )
 
 @Webot.on_message(filters.command("start"))
