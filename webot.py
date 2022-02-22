@@ -9,7 +9,7 @@ Webot = Client(
    "Telegraph Uploader",
    api_id=17875613,
    api_hash=apihash,
-   bot_token=5280070566:AAHeW6S0FhRJ7Nn81YXz_YeI2B-51spcRPk,
+   bot_token=token,
 )
 
 @Webot.on_message(filters.command("start"))
